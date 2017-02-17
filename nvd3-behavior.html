@@ -283,6 +283,13 @@
     },
 
     /**
+    * Forces a fixed Y-Range
+    */
+    setYRange: function (min, max) {
+      this._chart.forceY([min, max]);
+    },
+
+    /**
      * Updates the chart
      */
     refresh: function () {
